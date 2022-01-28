@@ -69,7 +69,7 @@ let classRoom = [id, students]
 const findStudent = (nameStudent) => {
   if(classRoom[1].includes(nameStudent)){
     let index = classRoom[1].indexOf(nameStudent)
-    return `Hi, ${classRoom[1][index]}! your id is ${classRoom[0][index]}`
+    return `Hi, ${classRoom[1][index]} your id is ${classRoom[0][index]}`
   }else{
     return `Aluno não encontrado`
   }
