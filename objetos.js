@@ -3,10 +3,7 @@ const obj = {
   idade: 19,
   sexo: "Masc",
   peso: 73,
-  andar: () => {
-    this.peso - 1
-  }
 }
-console.log(obj.peso)
-obj.andar()
-console.log(obj.peso)
+
+console.log(`As três primeiras letras do nome do cliente são: ${obj.nome.substring(0, 3)}`)
+// o metodo substring() recebe dois parametros  de incide inicio e fim e retorna os elementos contidos no indice indicado 
