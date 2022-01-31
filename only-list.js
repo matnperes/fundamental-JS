@@ -30,3 +30,4 @@ const converteJSON = JSON.parse(jsonPessoas)
 
 console.log(jsonPessoas)
 console.log(converteJSON)
+console.log(colecoes.__proto__)
