@@ -21,3 +21,5 @@ function cumprimentar(){
  }
  
  cumprimentaPessoa('Paula') // “Oi gente! Meu nome é Paula”
+
+ 
